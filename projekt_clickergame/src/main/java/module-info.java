@@ -1,8 +1,6 @@
-module at.spengergasse.projekt_clickergame {
+module projekt_clickergame {
     requires javafx.controls;
-    requires javafx.fxml;
 
-
-    opens at.spengergasse.projekt_clickergame to game.fxml;
-    exports at.spengergasse.projekt_clickergame;
+    exports at.spengergasse.projekt_clickergame.Model;
+    exports at.spengergasse.projekt_clickergame.ViewControl;
 }
